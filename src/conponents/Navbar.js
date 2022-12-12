@@ -7,8 +7,8 @@ export default function Navbar() {
   return (
     <>
       <div id="navbar">
-        <nav class="bg-[#a3b18a] shadow">
-          <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <nav class="bg-[#080808] rounded-md shadow">
+          <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-10">
             <div class="relative flex h-16 justify-between">
               <div class="absolute inset-y-0 left-0 flex items-center bg-[#52796f] sm:hidden">
                 {/* <!-- Mobile menu button --> */}
@@ -67,42 +67,10 @@ export default function Navbar() {
                       pt-1
                       text-sm
                       font-medium
-                      text-gray-500
+                      text-orange-500
                       hover:border-gray-300 hover:text-gray-700
-                    ">James Esil Holder</a>
-                  <a href="projects" class="
-                      inline-flex
-                      items-center
-                      border-b-2 border-transparent
-                      px-1
-                      pt-1
-                      text-sm
-                      font-medium
-                      text-gray-500
-                      hover:border-gray-300 hover:text-gray-700
-                    ">projects</a>
-                  <a href="blog" class="
-                      inline-flex
-                      items-center
-                      border-b-2 border-transparent
-                      px-1
-                      pt-1
-                      text-sm
-                      font-medium
-                      text-gray-500
-                      hover:border-gray-300 hover:text-gray-700
-                    ">Blog</a>
-                  <a href="contacts" class="
-                      inline-flex
-                      items-center
-                      border-b-2 border-transparent
-                      px-1
-                      pt-1
-                      text-sm
-                      font-medium
-                      text-gray-500
-                      hover:border-gray-300 hover:text-gray-700
-                    ">Contact</a>
+                    ">Mobile Plus Liberia</a>
+                  
                 </div>
               </div>
 
@@ -117,7 +85,7 @@ export default function Navbar() {
                   sm:static sm:inset-auto sm:ml-6 sm:pr-0
                   
                 ">
-                  <a href="contacts" class="
+                  <a href="about&settings" class="
                       items-center
                       inline-flex
                       border-b-2 border-transparent
@@ -125,9 +93,9 @@ export default function Navbar() {
                       pt-1
                       text-sm
                       font-medium
-                      text-gray-500
-                      hover:border-gray-300 hover:text-gray-700
-                    ">Sign In</a>
+                      text-yellow-500
+                      hover:border-gray-300 hover:text-gray-500
+                    ">About & Setting</a>
                 </div>
             </div>
           </div>
@@ -139,39 +107,8 @@ export default function Navbar() {
 
               {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" --> */}
 
-              <a href="/projects" class="
-                  block
-                  border-l-4 border-indigo-500
-                  bg-indigo-50
-                  py-2
-                  pl-3
-                  pr-4
-                  text-base
-                  font-medium
-                  text-indigo-700
-                ">Projects</a>
-              <a href="#" class="
-                  block
-                  border-l-4 border-transparent
-                  py-2
-                  pl-3
-                  pr-4
-                  text-base
-                  font-medium
-                  text-gray-500
-                  hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700
-                ">Blog</a>
-              <a href="#" class="
-                  block
-                  border-l-4 border-transparent
-                  py-2
-                  pl-3
-                  pr-4
-                  text-base
-                  font-medium
-                  text-gray-500
-                  hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700
-                ">Contact</a>
+              
+              
             </div>
           </div>
         </nav>

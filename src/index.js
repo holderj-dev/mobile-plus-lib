@@ -8,9 +8,7 @@ import {
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Projects} from './routes/projects';
 import { Contacts } from './routes/contacts';
-import { Blogs } from './routes/Blog';
 
 
 
@@ -19,20 +17,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <App/>,
   },
+  
   {
-    path: "/projects",
-    element: <Projects/>,
-  },
-  {
-    path: "/contacts",
+    path: "/about&settings",
     element: <Contacts/>
   },
-  {
-    path: "/blog",
-    element: <Blogs/>
-  },
-  
-  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
