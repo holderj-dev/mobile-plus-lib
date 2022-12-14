@@ -126,7 +126,7 @@ export default function LonestarCard() {
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 ">
-                                <dd class="UsefulCodes-itemTitle">Just For You, both Voice & Data boundles, And morning gees too.</dd>
+                                <dd class="UsefulCodes-itemTitle">Just For You.</dd>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 ">

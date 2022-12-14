@@ -29,7 +29,7 @@ function App() {
       </div>
 
       <footer class="bg-[#edede9] rounded-md shadow justify-center">
-        <AboutMp/>
+        <AboutMp />
         {/* <p
           class='flex
                       justify-items-center

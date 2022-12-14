@@ -14,11 +14,12 @@ export default function AboutMp() {
           px-1
           pt-1
           text-sm
-          font-medium
+          font-bold
           text-orange-500
           hover:text-yellow-500'>
-        Mobile Plus Liberia. Is a thirdparty app, developed by <a href="https://jamesesilholder.vercel.app"> James Esil Holder </a>
-        for assibility of both Gsm services and their Ussds Codes.
+        <p>Mobile Plus Liberia. Is a thirdparty app, developed by <a href="https://jamesesilholder.vercel.app"> James Esil Holder </a>
+          for assibility of both Gsm services and their Ussds Codes.</p>
+
       </p>
     </>
   )

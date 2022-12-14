@@ -89,18 +89,6 @@ export default function Navbar() {
                     ">Mobile Plus Liberia</a>
 
 
-              <a href="about" class="
-                      items-center
-                      inline-flex
-                      border-b-2 border-transparent
-                      px-1
-                      pt-1
-                      text-sm
-                      font-medium
-                      text-yellow-500
-                      hover:border-gray-300 hover:text-gray-500
-                    ">About</a>
-
               {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" --> */}
 
             </div>
