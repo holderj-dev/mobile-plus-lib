@@ -72,18 +72,7 @@ export default function Navbar() {
                       hover:border-gray-300 hover:text-gray-500
                     ">My Orange</a> */}
 
-                  <a href="/about" class="
-                      items-center
-                      inline-flex
-                      border-b-2 border-transparent
-                      px-1
-                      pt-1
-                      text-sm
-                      font-medium
-                      text-yellow-500
-                      hover:border-gray-300 hover:text-gray-500
-                    ">About</a>
-
+                  
                 </div>
               </div>
 
