@@ -49,6 +49,7 @@ export default function Navbar() {
                 <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
                   <a href="/" class="
+                      flex justify-center
                       inline-flex
                       items-center
                       border-b-2 border-transparent
@@ -57,20 +58,10 @@ export default function Navbar() {
                       text-sm
                       font-medium
                       text-orange-500
-                      hover:border-gray-300 hover:text-gray-700
+                      hover:text-yellow-500
                     ">Mobile Plus Liberia</a>
 
-                  {/* <a href="/my-orange" class="
-                      items-center
-                      inline-flex
-                      border-b-2 border-transparent
-                      px-1
-                      pt-1
-                      text-sm
-                      font-medium
-                      text-yellow-500
-                      hover:border-gray-300 hover:text-gray-500
-                    ">My Orange</a> */}
+                  
 
                   
                 </div>
