@@ -8,7 +8,7 @@ import {
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Contacts } from './routes/contacts';
+import AboutMp from './routes/About';
 
 
 
@@ -19,9 +19,10 @@ const router = createBrowserRouter([
   },
   
   {
-    path: "/about&settings",
-    element: <Contacts/>
+    path: "/about",
+    element: <AboutMp/>
   },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -31,13 +31,6 @@ export default function Navbar() {
     
                 Heroicon name: outline/bars-3
     
-                Menu open: "hidden", Menu closed: "block"
-              --> */}
-                  <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                  </svg>
                   {/* <!--
                 Icon when menu is open.
     
@@ -45,10 +38,6 @@ export default function Navbar() {
     
                 Menu open: "block", Menu closed: "hidden"
               --> */}
-                  <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                  </svg>
                 </button>
               </div>
               <div class="
@@ -70,22 +59,8 @@ export default function Navbar() {
                       text-orange-500
                       hover:border-gray-300 hover:text-gray-700
                     ">Mobile Plus Liberia</a>
-                  
-                </div>
-              </div>
 
-              {/* sign in class */}
-              <div class="
-                  absolute
-                  inset-y-0
-                  right-50
-                  flex
-                  items-center
-                  pr-2
-                  sm:static sm:inset-auto sm:ml-6 sm:pr-0
-                  
-                ">
-                  <a href="about&settings" class="
+                  <a href="about" class="
                       items-center
                       inline-flex
                       border-b-2 border-transparent
@@ -95,8 +70,13 @@ export default function Navbar() {
                       font-medium
                       text-yellow-500
                       hover:border-gray-300 hover:text-gray-500
-                    ">About & Setting</a>
+                    ">About</a>
+
                 </div>
+              </div>
+
+              {/* sign in class */}
+              
             </div>
           </div>
 
@@ -104,11 +84,33 @@ export default function Navbar() {
 
           <div class="sm:hidden" id="mobile-menu">
             <div class="space-y-1 pt-2 pb-4">
+            <a href="/" class="
+                      inline-flex
+                      items-center
+                      border-b-2 border-transparent
+                      px-1
+                      pt-1
+                      text-sm
+                      font-medium
+                      text-orange-500
+                      hover:border-gray-300 hover:text-gray-700
+                    ">Mobile Plus Liberia</a>
+
+
+                <a href="about" class="
+                      items-center
+                      inline-flex
+                      border-b-2 border-transparent
+                      px-1
+                      pt-1
+                      text-sm
+                      font-medium
+                      text-yellow-500
+                      hover:border-gray-300 hover:text-gray-500
+                    ">About</a>
 
               {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" --> */}
 
-              
-              
             </div>
           </div>
         </nav>

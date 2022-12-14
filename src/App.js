@@ -13,7 +13,7 @@ function App() {
   });
   return (
     <>
-      <Navbar />e
+      <Navbar />
       <div class="py-6">
         <main>
           <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

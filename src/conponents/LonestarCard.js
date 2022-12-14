@@ -11,14 +11,14 @@ export default function LonestarCard() {
 
         <details class="px-6 py-4">
           <summary class="font-bold text-2xl text-gray-800">My MTN Liberia</summary>
-          <p>My Orange Liberia. Is a web app that allow you to access both Mobile Money and to buy internet and Voice packages without diaing a single code. </p>
-          <a class="font-bold text-2xl text-green-800" href='https://www.facebook.com/Jaye6000'>Watch Here Facebook</a>
+          <p>My Orange Liberia. Is a web app that allow you to access both Mobile Money and to buy internet and Voice packages without diaing a single code, COMING SOON!! </p>
+          {/* <a class="font-bold text-2xl text-green-800" href=''>Watch Here Facebook</a> */}
         </details>
 
         <details class="px-6 py-4">
           <summary class="font-bold text-2xl text-gray-800">Lonestar Cell MTN Ussd Codes </summary>
           <p>Access all lonestar Cell MTN Ussd Codes and their ussage. </p>
-          <a class="font-bold text-2xl text-green-800" href='https://www.facebook.com/Jaye6000'>Watch Here Facebook</a>
+          {/* <a class="font-bold text-2xl text-green-800" href='https://www.facebook.com/Jaye6000'>Watch Here Facebook</a> */}
         </details>
       </div>
 
