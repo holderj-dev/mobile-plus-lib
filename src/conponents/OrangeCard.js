@@ -21,13 +21,12 @@ export default function OrangeCard() {
 
         <details class="px-6 py-4">
           <summary class="font-bold text-2xl text-gray-800"> My Orange Ussd Codes</summary>
-          <p>Get free access to all Orange TM ussd Codes and their ussage.</p>
-          <a href="/orange-ussds">View All Here!!</a>
-          <details>
+          <p>Get free access to all Orange TM ussd Codes and their details.</p>
 
-            {/* // codes 1- offers */}
+          {/* // codes 1- offers */}
+          <details>
             <summary class="font-bold text-2xl text-gray-800">Orange Offer Codes</summary>
-            <div class="border 
+            <div class="border border-[#000000] border-2
                   flex 
                   items-center
                   justify-center
@@ -40,7 +39,7 @@ export default function OrangeCard() {
                     <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
                       <div class="overflow-hidden">
                         <table class="min-w-full bg-[#FC5C00]">
-                          <thead class="border-b">
+                          <thead class="UsefulCodes-item">
                             <tr>
                               <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
                                 No.
@@ -57,7 +56,7 @@ export default function OrangeCard() {
                             </tr>
                           </thead>
                           <tbody>
-                            <tr class="border-b">
+                            <tr class="UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">1</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*124%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*124#">*124#</a>
@@ -69,7 +68,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">2</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*150%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*150#">*150#</a>
@@ -83,7 +82,7 @@ export default function OrangeCard() {
                                 Only $50 Cent
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">3</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*143%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*143#">*143#</a>
@@ -97,7 +96,7 @@ export default function OrangeCard() {
                                 only $1 Dollar
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">4</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*888%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*888#">*888#</a>
@@ -111,7 +110,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">5</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*999%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*999#">*999#</a>
@@ -125,7 +124,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">6</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*998%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*998#">*998#</a>
@@ -139,7 +138,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">7</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*767%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*767#">*767#</a>
@@ -153,7 +152,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">8</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*833%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*833#">*833#</a>
@@ -167,7 +166,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">9</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*909%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*909#">*909#</a>
@@ -181,7 +180,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">10</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*250%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*250#">*250#</a>
@@ -195,7 +194,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">11</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*50%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*50#">*50#</a>
@@ -209,7 +208,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">12</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="#" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*141#">*141#</a>
@@ -223,7 +222,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">13</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel: *474%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*474#">*474#</a>
@@ -237,7 +236,7 @@ export default function OrangeCard() {
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">14</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
                                 <a href="tel:*352%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*352#">*352#</a>
@@ -261,11 +260,12 @@ export default function OrangeCard() {
             </div>
           </details>
 
-          <details>
-             {/* // codes 2-Orange money */}
 
-             <summary class="font-bold text-2xl text-gray-800">Orange Money Codes</summary>
-            <div class="border 
+
+          {/* // codes 2-Orange money */}
+          <details>
+            <summary class="font-bold text-2xl text-gray-800">Orange Money Codes</summary>
+            <div class="border border-[#000000] border-2
                   flex 
                   items-center
                   justify-center
@@ -278,7 +278,7 @@ export default function OrangeCard() {
                     <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
                       <div class="overflow-hidden">
                         <table class="min-w-full bg-[#FC5C00]">
-                          <thead class="border-b">
+                          <thead class="UsefulCodes-item">
                             <tr>
                               <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
                                 No.
@@ -289,190 +289,265 @@ export default function OrangeCard() {
                               <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
                                 Description.
                               </th>
-                              
+
                             </tr>
                           </thead>
                           <tbody>
-                            <tr class="border-b">
+                            <tr class="UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">1</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                              <a href="tel:*144%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144#">*144#</a> 
+                                <a href="tel:*144%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144#">*144#</a>
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                              <span class="UsefulCodes-itemTitle">Orange Money</span> 
+                                <span class="UsefulCodes-itemTitle">Orange Money</span>
                               </td>
-                            
+
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">2</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                              <a href="tel:*144*143*1%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*143*1#">*144*143*1#</a> 
+                                <a href="tel:*144*143*1%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*143*1#">*144*143*1#</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                              <span class="UsefulCodes-itemTitle">OM 3 days calls (USD)</span> 
+                                <span class="UsefulCodes-itemTitle">OM 3 days calls (USD)</span>
 
                               </td>
-                              
+
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">3</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                              <a href="tel:*144*30%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*30#">*144*30#</a> 
+                                <a href="tel:*144*30%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*30#">*144*30#</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                              <span class="UsefulCodes-itemTitle">OM 30LD daily voice pack</span> 
+                                <span class="UsefulCodes-itemTitle">OM 30LD daily voice pack</span>
 
                               </td>
 
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">4</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                              <a href="tel:*144*143*2%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*143*2#">*144*143*2#</a> 
+                                <a href="tel:*144*143*2%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*143*2#">*144*143*2#</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                              <span class="UsefulCodes-itemTitle">OM 3 days calls (LD)</span> 
+                                <span class="UsefulCodes-itemTitle">OM 3 days calls (LD)</span>
 
                               </td>
-                              
+
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">5</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                              <a href="tel:*144*10%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*10#">*144*10#</a> 
+                                <a href="tel:*144*10%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*10#">*144*10#</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                              <span class="UsefulCodes-itemTitle">OM 10LD daily voice pack</span> 
+                                <span class="UsefulCodes-itemTitle">OM 10LD daily voice pack</span>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">6</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <a href="tel:*998%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*998#">*998#</a>
+                                <a href="tel:*144*100%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*100#">*144*100#</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <dd class="UsefulCodes-itemTitle">Post-paid smart bundles</dd>
+                                <span class="UsefulCodes-itemTitle">OM 100LD daily voice pack</span>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">7</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <a href="tel:*767%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*767#">*767#</a>
+                                <a href="tel:*144*201%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*201#">*144*201#</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <dd class="UsefulCodes-itemTitle">SOS Data</dd>
+                                <span class="UsefulCodes-itemTitle">OM 200LD daily data pack</span>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">8</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <a href="tel:*833%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*833#">*833#</a>
+                                <a href="tel:*144*11%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*11#">*144*11#</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <dd class="UsefulCodes-itemTitle">Home Internet</dd>
+                                <span class="UsefulCodes-itemTitle">OM 10LD daily data pack</span>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">9</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <a href="tel:*909%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*909#">*909#</a>
+                                <a href="tel:*144*31%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*144*31#">*144*31#</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <dd class="UsefulCodes-itemTitle">Internet Pro</dd>
+                                <span class="UsefulCodes-itemTitle">OM 30LD daily data pack</span>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
+                            <tr class=" UsefulCodes-item">
                               <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">10</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <a href="tel:*250%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*250#">*250#</a>
+                                <a href="tel: *144*101%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label=" *144*101#"> *144*101#</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <dd class="UsefulCodes-itemTitle">Voice international large bundles</dd>
-
-                              </td>
-                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-
-                              </td>
-                            </tr>
-                            <tr class=" border-b">
-                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">11</td>
-                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <a href="tel:*50%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*50#">*50#</a>
-
-                              </td>
-                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <dd class="UsefulCodes-itemTitle">USA/Canada Petty bundles</dd>
+                                <span class="UsefulCodes-itemTitle">OM 100LD daily data pack</span>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
-                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">12</td>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </details>
+
+
+          {/* // codes 3-Orange money */}
+
+          <details>
+            <summary class="font-bold text-2xl text-gray-800">Orange Value Added Services</summary>
+            <div class="border border-[#000000] border-2
+                  flex 
+                  items-center
+                  justify-center
+                  sm:items-stretch sm:justify-start
+                ">
+
+              <div class="card-body bg-[#FC5C00] center">
+                <div class="flex flex-col">
+                  <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                    <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                      <div class="overflow-hidden">
+                        <table class="min-w-full bg-[#FC5C00]">
+                          <thead class="UsefulCodes-item">
+                            <tr>
+                              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                                No.
+                              </th>
+                              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                                Code.
+                              </th>
+                              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                                Description.
+                              </th>
+
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="UsefulCodes-item">
+                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">1</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <a href="#" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*141#">*141#</a>
+                                <a href="tel:*525%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*525#">*525#</a>
+                              </td>
+                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
+                                <span class="UsefulCodes-itemTitle">Orange Football Club</span>
+                              </td>
+
+                            </tr>
+                            <tr class=" UsefulCodes-item">
+                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">2</td>
+                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
+                                <a href="tel:*511%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*511#">*511#</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <dd class="UsefulCodes-itemTitle">CAMEL Roaming (De)Activation</dd>
+                                <span class="UsefulCodes-itemTitle">Call Status</span>
+
+                              </td>
+
+                            </tr>
+                            <tr class=" UsefulCodes-item">
+                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">3</td>
+                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
+                                <a href="tel:444" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="444">444</a>
+
+                              </td>
+                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
+                                <span class="UsefulCodes-itemTitle">Friends chat</span>
+
+                              </td>
+
+                            </tr>
+                            <tr class=" UsefulCodes-item">
+                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">4</td>
+                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
+                                <a href="tel:811" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="811">811</a>
+
+                              </td>
+                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
+                                <span class="UsefulCodes-itemTitle">Caller Tunes</span>
+
+                              </td>
+
+                            </tr>
+                            <tr class=" UsefulCodes-item">
+                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">5</td>
+                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
+                                <a href="tel:789" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="789">789</a>
+
+                              </td>
+                              <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
+                                <span class="UsefulCodes-itemTitle">Bible readings</span>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
-                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">13</td>
+                            <tr class=" UsefulCodes-item">
+                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">6</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <a href="tel: *474%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*474#">*474#</a>
+                                <a href="tel:234" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="234">234</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <dd class="UsefulCodes-itemTitle">Data packs</dd>
+                                <span class="UsefulCodes-itemTitle">Quran readings</span>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
 
                               </td>
                             </tr>
-                            <tr class=" border-b">
-                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">14</td>
+                            <tr class=" UsefulCodes-item">
+                              <td class="px-6 py-4 bg-[#FC5C00] text-sm font-medium text-gray-900">7</td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <a href="tel:*352%23" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="*352#">*352#</a>
+                                <a href="tel:456" class="Link-reverse UsefulCodes-itemNumber etn-data-layer-event" data-dl_event_category="useful codes" data-dl_event_action="button_click" data-dl_event_label="456">456</a>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">
-                                <dd class="UsefulCodes-itemTitle">My Pack</dd>
+                                <span class="UsefulCodes-itemTitle">Music Channel</span>
 
                               </td>
                               <td class="text-sm text-gray-900 font-light px-6 py-4 bg-[#FC5C00]">

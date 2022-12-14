@@ -9,6 +9,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AboutMp from './routes/About';
+import Myorange from './routes/myOange';
 
 
 
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <AboutMp/>
+  },
+
+  {
+    path: "/my-orange",
+    element: <Myorange/>
   },
 
 ]);

@@ -60,7 +60,19 @@ export default function Navbar() {
                       hover:border-gray-300 hover:text-gray-700
                     ">Mobile Plus Liberia</a>
 
-                  <a href="about" class="
+                  <a href="/my-orange" class="
+                      items-center
+                      inline-flex
+                      border-b-2 border-transparent
+                      px-1
+                      pt-1
+                      text-sm
+                      font-medium
+                      text-yellow-500
+                      hover:border-gray-300 hover:text-gray-500
+                    ">My Orange</a>
+
+                  <a href="/about" class="
                       items-center
                       inline-flex
                       border-b-2 border-transparent
@@ -76,7 +88,7 @@ export default function Navbar() {
               </div>
 
               {/* sign in class */}
-              
+
             </div>
           </div>
 
@@ -84,7 +96,7 @@ export default function Navbar() {
 
           <div class="sm:hidden" id="mobile-menu">
             <div class="space-y-1 pt-2 pb-4">
-            <a href="/" class="
+              <a href="/" class="
                       inline-flex
                       items-center
                       border-b-2 border-transparent
@@ -97,7 +109,7 @@ export default function Navbar() {
                     ">Mobile Plus Liberia</a>
 
 
-                <a href="about" class="
+              <a href="about" class="
                       items-center
                       inline-flex
                       border-b-2 border-transparent
