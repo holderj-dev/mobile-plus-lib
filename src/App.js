@@ -28,7 +28,7 @@ function App() {
         </main>
       </div>
 
-      <footer class="bg-[#edede9] rounded-md shadow justify-center">
+      <footer class="bg-[#000000] rounded-md shadow justify-center">
         <AboutMp />
         {/* <p
           class='flex

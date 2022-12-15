@@ -6,7 +6,7 @@ export default function AboutMp() {
     <>
 
       <div className="font-bold flex justify-center">
-        <h1 >About Mobile Plus Liberia</h1>
+        <h1 className="text-yellow-500  hover:text-orange-500">About Mobile Plus Liberia</h1>
       </div>
       <p
         class='flex justify-center
