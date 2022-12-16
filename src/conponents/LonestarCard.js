@@ -18,7 +18,7 @@ export default function LonestarCard() {
 
         <details class="px-6 py-4">
           <summary class="font-bold text-2xl text-gray-800">Lonestar Cell MTN Ussd Codes </summary>
-          <p>Access all lonestar Cell MTN Ussd Codes and their ussage. </p>
+          <p>Access all lonestar Cell MTN Ussd Codes and their ussage.  </p>
           {/* // codes 1- offers */}
           <details>
             <summary class="font-bold text-2xl text-gray-800">Lonester Offer Codes</summary>
