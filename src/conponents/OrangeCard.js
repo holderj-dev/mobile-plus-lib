@@ -3,14 +3,15 @@ import React from "react";
 export default function OrangeCard() {
   return (
     <>
-      <div id="orange" class="bg-[#FC5C00] h-50 my-6 py-8 rounded-lg border-[#000000] border-4">
+      <div id="orange" class="h-50 my-6 py-8 rounded-lg border-[#000000] border-4">
         <div class="flex justify-center">
           <h3 class="font-bold">Orange TM</h3>
         </div>
 
         <details class="px-6 py-4">
           <summary class="font-bold text-2xl text-gray-800">Orange Money Web</summary>
-          <p>My Orange Money Web. Is a web based app that allow you to carring on faster orange money transaction, as you would when when using ussd codes. COMING SOON!!</p>
+          <p>My Orange Money Web. Is a web based app that allow you to carring on faster orange money transaction, as you would when when using ussd codes.</p>
+          <h1>COMMING SOON!!</h1>
         </details>
 
         <details class="px-6 py-4">

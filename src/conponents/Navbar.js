@@ -7,9 +7,9 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-[#080808] rounded-md shadow ">
-        <div className="flex items-stretch">
+        <div className="flex">
           <img src='https://halberdbastion.com/sites/default/files/styles/medium/public/2019-04/Orange-Liberia_logo.png?itok=MEhqibKc' width={30} height={30} alt="orange" />
-          <img className="right-90" src='https://i0.wp.com/lr.careerical.com/wp-content/uploads/2022/10/Lonestar-Cell-MTN-192x192-1.jpg?resize=225%2C225&ssl=1
+          <img className="flex items-right" src='https://i0.wp.com/lr.careerical.com/wp-content/uploads/2022/10/Lonestar-Cell-MTN-192x192-1.jpg?resize=225%2C225&ssl=1
 ' width={30} height={30} alt="lonestar" />
         </div>
         <div className="font-bold flex justify-center">
@@ -24,7 +24,7 @@ export default function Navbar() {
           font-bold
           text-orange-500
           hover:text-yellow-500'>
-          <p>Shaping The Posibility And Avaibility Of Tech In Liberia.</p>
+          <p>Shaping The Posibility And Avaibility Of Tech Communication In Liberia.</p>
 
         </p>
 
